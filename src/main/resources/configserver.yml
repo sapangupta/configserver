@@ -1,12 +1,11 @@
 spring:
   application:
-    name: bootstrap
+    name: configserver
   cloud:
     config:
-      # profiles:
-      #   active: native
+      profiles:
+        active: native
       # name: bootstrap
-      enabled: true
       server:
         bootstrap: true
         # native:
